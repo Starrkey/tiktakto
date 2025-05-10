@@ -50,7 +50,7 @@ const size = 20;
   }
 
 
-  for (let i = 0; i < 400; i++) {
+  for (let i = 0; i < size*size; i++) {
     const cell = document.createElement('div');
     cell.className = 'cell';
     grid.appendChild(cell);
